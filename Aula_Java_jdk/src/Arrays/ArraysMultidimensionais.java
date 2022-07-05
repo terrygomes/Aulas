@@ -1,5 +1,7 @@
 package Arrays;
 
+import java.util.Random;
+
 public class ArraysMultidimensionais
 {
 
@@ -62,6 +64,41 @@ public class ArraysMultidimensionais
 
 		dois[1][0] = "DANIELE";// Nessa variável mudaremos o elemento do segundo Array
 		System.out.println("Mudanca do segundo Array = " + dois[1][0] + "\n"); // no caso "Daniele" passa a ser "DANIELE"
+		// uma brincadeira de 2 Arrays separados
+		String[] faces =
+		{
+			"A",
+			"2",
+			"3",
+			"4",
+			"5",
+			"6",
+			"7",
+			"8",
+			"9",
+			"10",
+			"Valete",
+			"Dama",
+			"Rei"
+		};
+		String[] nipes =
+		{
+			"Espadas",
+			"Paus",
+			"Comas",
+			"Ouros"
+		};
+
+		Random aleatorio = new Random();// Método que busca valor/elementos aleatórios
+		int pegarFaces = aleatorio.nextInt(faces.length);// busca o valor aleatório para pegar
+		String fac = faces[pegarFaces]; // recupera o valor para String
+
+		Random aleatorio2 = new Random();
+		int pegarNipes = aleatorio2.nextInt(nipes.length);
+		String nip = faces[pegarNipes];
+
+		System.out.println("Carta = " + fac + "  Nipe = " + nip);// Imprime os 2 elementos
+
 	}
 
 }
