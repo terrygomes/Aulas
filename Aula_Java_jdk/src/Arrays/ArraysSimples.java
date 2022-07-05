@@ -22,7 +22,7 @@ public class ArraysSimples
 		 * Quando falamos método simples é por quê a chave [] simples apenas 1, [][]esse será de 2 dimensão por conter 2 chaves.
 		 * */
 
-		// lembramos que se tentar imprimir valor diferente do programado irá gerar um erro.
+		// lembramos que se tentar imprimir valor diferente do programado ira gerar um erro.
 		String[] paises =
 		{
 			// todo array começa na posição 0
@@ -37,10 +37,10 @@ public class ArraysSimples
 		Arrays.sort(paises, 0, paises.length);// O método sort pode ordenar na posição Array = paises 0 = a posição e paises.length = percorrera até a ultima posição oodenando
 		System.out.println("Valor ordenado = " + Arrays.toString(paises) + "\n"); // A classe Arrays converte para String e mostra os valores de todo array
 
-		int posicao = Arrays.binarySearch(paises, "Brasil");// binarysearch irá buscar a posição elemento e dentro do Array indicado (paises = Array e "Brasil" = Elemento.
-		System.out.println("Valor da busca da posicao Elemento = " + posicao + "\n"); // Irá imprimir o valor da posição e mostrar a posição Elemento (Brasil).
+		int posicao = Arrays.binarySearch(paises, "Brasil");// binarysearch ira buscar a posição elemento e dentro do Array indicado (paises = Array e "Brasil" = Elemento.
+		System.out.println("Valor da busca da posicao Elemento = " + posicao + "\n"); // ira imprimir o valor da posição e mostrar a posição Elemento (Brasil).
 
-		// muito cuidado na posição e linha que irá escrever, após essa variável o valor mudará
+		// muito cuidado na posição e linha que ira escrever, após essa variável o valor mudará
 		paises[0] = "BRASIL"; // Pelo array podemos modar o valor (alterar) a posição e colcoar outro valor
 		System.out.println("Troca do valor do Array = " + paises[0] + "\n"); // Ao imprimir na tela o valor indexado. A veriável é trocada pelo novo valor e é impresso
 
@@ -52,7 +52,7 @@ public class ArraysSimples
 
 		// Qauntidades de posições de Arrays 5 começando por 0
 
-		// lembramos que se tentar imprimir valor diferente do programado irá gerar um erro.
+		// lembramos que se tentar imprimir valor diferente do programado ira gerar um erro.
 		impares[0] = 1;
 		impares[1] = 3;
 		impares[2] = 5;
@@ -68,7 +68,7 @@ public class ArraysSimples
 		System.out.println("Converte em String e mostra os valores = " + Arrays.toString(impares) + "\n"); // A classe Arrays converte para String e mostra os valores de todo array
 
 		// podemos acessar qualquer valor nas posição do Array
-		// lembramos que se tentar imprimir valor diferente do programado irá gerar um erro.
+		// lembramos que se tentar imprimir valor diferente do programado ira gerar um erro.
 		Double[] valor =
 		{
 			11.0,
@@ -76,7 +76,7 @@ public class ArraysSimples
 			50.99,
 			99.1
 		};
-		System.out.println("Acesso ao valor da posicao 3 = " + valor[3].doubleValue()); // Nesta linha irá imprimir o valor da posição [3] = 99.1
+		System.out.println("Acesso ao valor da posicao 3 = " + valor[3].doubleValue()); // Nesta linha ira imprimir o valor da posição [3] = 99.1
 
 	}
 
