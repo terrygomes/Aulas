@@ -21,6 +21,8 @@ public class ArraysSimples
 		/**
 		 * Quando falamos método simples é por quê a chave [] simples apenas 1, [][]esse será de 2 dimenção por conter 2 chaves.
 		 * */
+
+		// lembramos que se tentar imprimir valor diferente do programado irá gerar um erro.
 		String[] paises =
 		{
 			// todo array começa na posição 0
@@ -49,6 +51,8 @@ public class ArraysSimples
 		int[] impares = new int[5]; // Ao criar um array com primitivos ou objetos terá que colocar a intenção de posição, quantas posições terá seu Array
 
 		// Qauntidades de posições de Arrays 5 começando por 0
+
+		// lembramos que se tentar imprimir valor diferente do programado irá gerar um erro.
 		impares[0] = 1;
 		impares[1] = 3;
 		impares[2] = 5;
@@ -64,6 +68,7 @@ public class ArraysSimples
 		System.out.println("Converte em String e mostra os valores = " + Arrays.toString(impares) + "\n"); // A classe Arrays converte para String e mostra os valores de todo array
 
 		// podemos acessar qualquer valor nas posição do Array
+		// lembramos que se tentar imprimir valor diferente do programado irá gerar um erro.
 		Double[] valor =
 		{
 			11.0,
