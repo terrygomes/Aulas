@@ -91,11 +91,11 @@ public class ArraysMultidimensionais
 
 		Random aleatorio = new Random();// Método que busca valor/elementos aleatórios
 		int pegarFaces = aleatorio.nextInt(faces.length);// busca o valor aleatório para pegar
-		String fac = faces[pegarFaces]; // recupera o valor para String
+		String fac = faces[pegarFaces]; // recupera o valor para String //String fac = faces[aleatorio.nextInt(faces.length)]; poderia simplificar o código
 
 		Random aleatorio2 = new Random();
 		int pegarNipes = aleatorio2.nextInt(nipes.length);
-		String nip = faces[pegarNipes];
+		String nip = faces[pegarNipes]; // poderia simplificar o códido String nip = faces[aleatorio2.nextInt(nipes.length)];
 
 		System.out.println("Carta = " + fac + "  Nipe = " + nip);// Imprime os 2 elementos
 
