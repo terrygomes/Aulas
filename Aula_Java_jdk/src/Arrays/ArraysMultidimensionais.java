@@ -25,6 +25,8 @@ public class ArraysMultidimensionais
 		 * cuidado para não confundir com as {} chaves que separa o método.
 		 * */
 
+		// Lembrando que se acessar o elemeno que não tem dentro do Array ira gerar um erro.
+
 		String[][] dois =
 		{ // chaves que separa o método da instrução
 
