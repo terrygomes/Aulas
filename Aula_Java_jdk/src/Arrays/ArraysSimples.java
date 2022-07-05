@@ -6,7 +6,7 @@ public class ArraysSimples
 {
 	/**
 	 * Método Main(Index/ Inicializa)
-	 * Arrays Simples com uma dimenção
+	 * Arrays Simples com uma dimensão
 	 * */
 	public static void main(String[] args)
 	{
@@ -17,9 +17,9 @@ public class ArraysSimples
 
 		// colchetes [] indexar/Chave {} para os valores.
 		// Exp:[0] / {"Brasil"}
-		// Método de Array de String simples com uma dimenção
+		// Método de Array de String simples com uma dimensão
 		/**
-		 * Quando falamos método simples é por quê a chave [] simples apenas 1, [][]esse será de 2 dimenção por conter 2 chaves.
+		 * Quando falamos método simples é por quê a chave [] simples apenas 1, [][]esse será de 2 dimensão por conter 2 chaves.
 		 * */
 
 		// lembramos que se tentar imprimir valor diferente do programado irá gerar um erro.
