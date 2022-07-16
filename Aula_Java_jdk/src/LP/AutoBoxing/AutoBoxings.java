@@ -1,4 +1,4 @@
-package AutoBoxing;
+package LP.AutoBoxing;
 
 public class AutoBoxings
 {
