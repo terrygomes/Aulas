@@ -12,7 +12,8 @@ public class Cachorro
 	String raça; // variável raça tipo String (texto)
 
 	void latir() // Void não renor na valor
-	{
+	{// mais usado em ação.
+		
 		System.out.println("Au, au, au");
 	}
 

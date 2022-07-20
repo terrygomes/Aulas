@@ -10,7 +10,7 @@ public class CachorroTeste
 		 * podemos chamar e atriburir as variáveis da classe Cachorro
 		 */
 
-		Cachorro pitbull = new Cachorro(); // Objeto
+		Cachorro pitbull = new Cachorro(); // criação de um novo Objeto
 		pitbull.raça = "PitBull"; // Atributo valor tipo String Texto
 		pitbull.tamanho = 40; // Atrinuto valor tipo primitivo inteiro
 		pitbull.latir(); // Atrinuto que retorna a ação do método.
